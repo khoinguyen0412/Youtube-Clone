@@ -1,0 +1,138 @@
+
+.video-grid{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 18px;
+    row-gap: 55px;
+    font-family: Roboto,Arial;
+}
+
+@media(max-width: 750px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width:751px) and (max-width:999px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(min-width: 1000px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.thumbnail{
+    width: 100%;
+}
+
+
+.video-info-grid{
+    display:grid;
+    grid-template-columns: 50px 1fr;
+    position: relative;
+}
+
+.channel-picture{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.profile-picture{
+    width: 36px;
+    border-radius: 50%;
+}
+
+.video-info{
+    display: inline-block;
+    width: 200px;
+}
+
+.video-title{
+    margin-top: 0px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.video-author{
+    font-size: 12px;
+    margin-bottom : 4px;
+}
+
+.video-stats{
+    margin-top: 0px;
+    font-size: 12px
+}
+
+.thumbnail-row{
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.video-time{
+    font-size: 13px;
+    background-color: black;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    color:white;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+    
+
+}
+
+
+.channel-preview{
+    display:grid;
+    grid-template-columns: 70px 180px;
+    height: auto;
+    background-color: white;
+    position:absolute;
+    bottom: -47px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    box-shadow: 6px -1px 3px
+    rgba(0,0,0,0.1);
+    pointer-events: none;
+}
+
+.channel-preview-info{
+    display:inline-block;
+}
+
+.channel-picture:hover .channel-preview{
+    opacity: 1;
+}
+
+
+.picture-preview{
+    border-radius: 50%;
+    width: 45px;
+}
+
+.picture-preview-box{ 
+    display:inline-block;
+    padding-top: 11px;
+    padding-left: 11px;
+}
+
+.video-author-preview{
+    margin-top: 11px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.subscribers{
+    font-size: 16px;
+}
