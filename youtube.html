@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <title>Youtube Clone</title>
+</head class = "page">
+    <link rel = "stylesheet" href="style/body.css">
+    <link rel = "stylesheet" href="style/general.css">
+    <link rel = "stylesheet" href="style/header.css">
+    <link rel = "stylesheet" href = "style/sidebar.css">
+    
+<body>
+    <div class = "header" >
+        <div class = "left-section">
+            <img class = "hamburger-menu"src = "icons/hamburger-menu.svg">
+            <img class = "youtube-logo" src = "icons/youtube-logo.svg">
+        </div>
+        <div class = "middle-section">
+            <input class = "search-bar" type = "text" placeholder="Search"> 
+            <button class = "search-button">
+                <img class = "search-icon" src = "icons/search.svg">
+                <div class = "tooltip">Search</div>
+            </button>
+            <button class = "voice-search-button">
+                <img class = "voice-search-icon"src = "icons/voice-search-icon.svg">
+                <div class = "tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class = "right-section">
+                <div class = "upload-container">
+                    <img class = "upload-button" src = "icons/upload.svg">
+                    <div class = "tooltip">Upload</div>
+                </div>
+                <div class="apps-container">
+                    <img class = "apps-button" src = "icons/youtube-apps.svg">
+                    <div class = "tooltip">Apps</div>
+                </div>
+                <div class = "noti-container">
+                    <img class = "notifications-button"src = "icons/notifications.svg">
+                    <div class = "noti-count">4</div>
+                    <div class = "tooltip">Notifications</div>
+                </div>
+            <img class = "profile-picture" src = "profile/khoi_profile.jpg">
+    
+        </div>
+        
+    </div>
+
+    <div class = "sidebar">
+        <div class = "sidebar-link">
+            <img  src = "icons/home.svg">
+            <div>Home</div>
+        </div>
+        <div class = "sidebar-link">
+            <img  src = "icons/explore.svg">
+            <div>Explore</div>
+        </div>
+        <div class = "sidebar-link">
+            <img  src = "icons/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class = "sidebar-link">
+            <img  src = "icons/originals.svg">
+            <div>Originals</div>
+        </div>
+        <div class = "sidebar-link">
+            <img  src = "icons/youtube-music.svg">
+            <div>Youtube Music</div>
+        </div>
+        <div class = "sidebar-link">
+            <img  src = "icons/library.svg">
+            <div>Library</div>
+        </div>
+    </div>
+
+   
+    
+    <div class = "video-grid">
+        <div class="video-preview">
+            <div class = "thumbnail-row">
+                <a  href="https://www.youtube.com/watch?v=s6dMWzZKjTs&t=14s">
+                    <img class = "thumbnail" src = "thumbnails/hq721.webp">
+                </a>
+                <div class = "video-time">6:56</div>
+            </div>     
+            <div class = "video-info-grid">
+                <div class = "channel-picture">
+                    <a href = "https://www.youtube.com/@TheCoderCoder">
+                        <img class = "profile-picture" src = "thumbnails/author-image.jpg">
+                    </a>
+
+                    <div class = "channel-preview">
+                        <div class = "picture-preview-box" >
+                            <img class = "picture-preview" src = "thumbnails/author-image.jpg">
+                        </div>
+
+                        <div class = "channel-preview-info">
+                            <p class = "video-author-preview">Coder Coder</p>
+                            <p class = "subscribers">420K subsribers</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class = "video-info">
+                    <a class = "video-link" href="https://www.youtube.com/watch?v=s6dMWzZKjTs&t=14s">
+                    <p class = "video-title" >
+                        Stop wasting time when you are learning to code</p>
+                    </a>
+                    <p class ="video-author">Coder Coder</p>
+                    <p class = "video-stats">1.3M Views &#183; 1 year ago </p>
+                </div>
+            
+            </div>      
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a class = "video-link" href = "https://www.youtube.com/watch?v=dJGhyTEXYp0">
+                    <img class = "thumbnail" src = "thumbnails/hq720.webp">
+                </a>
+                <div class = "video-time">2:23</div>
+            </div>
+
+            <div class = "video-info-grid">
+                <div class="channel-picture">
+                    <a href = "https://www.youtube.com/@MrAbas">
+                        <img class="profile-picture" src = "thumbnails/author-image1.jpg">
+                    </a>
+
+                    <div class = "channel-preview">
+                        <div class = "picture-preview-box" >
+                            <img class = "picture-preview" src = "thumbnails/author-image1.jpg">
+                        </div>
+
+                        <div class = "channel-preview-info">
+                            <p class = "video-author-preview">Mr Abas</p>
+                            <p class = "subscribers">192K subscribers</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class = "video-info">
+                    <a class = "video-link" href = "https://www.youtube.com/watch?v=dJGhyTEXYp0">
+                        <p class = "video-title">Milan Derby Pack Opening Efootball</p>
+                    </a>
+                    <p class ="video-author">Mr Abas</p>
+                    <p class = "video-stats">1.9K Views &#183; 2 hours ago </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class = "thumbnail-row">
+                <a class = "video-link" href = "https://www.youtube.com/watch?v=ww7x2cXkAN8">
+                    <img class = "thumbnail" src = "thumbnails/hq722.webp">
+                </a>
+                <div class = "video-time">5:40</div>
+            </div>     
+            <div class = "video-info-grid">
+                <div class = "channel-picture">
+                    <a href = "https://www.youtube.com/@Felu">
+                        <img class = "profile-picture" src = "thumbnails/author-image2.jpg">
+                    </a>
+
+                    <div class = "channel-preview">
+                        <div class = "picture-preview-box" >
+                            <img class = "picture-preview" src = "thumbnails/author-image2.jpg">
+                        </div>
+
+                        <div class = "channel-preview-info">
+                            <p class = "video-author-preview">Felu-Fit by cooking</p>
+                            <p class = "subscribers">272K subscribers</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class = "video-info">
+                    <a class = "video-link" href = "https://www.youtube.com/watch?v=ww7x2cXkAN8">
+                        <p class = "video-title">High Protein Enchiladas</p>
+                    </a>
+                    <p class ="video-author">Felu-Fit by cooking</p>
+                    <p class = "video-stats">3.5K Views &#183; 2 hours ago </p>
+                </div>
+            
+            </div>      
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a class = "video-link" href = "https://www.youtube.com/watch?v=PkZNo7MFNFg&t=9156s">
+                    <img class = "thumbnail" src = "thumbnails/hq723.webp">
+                </a>
+                <div class = "video-time">3:26:43</div>
+            </div>
+
+            <div class = "video-info-grid">
+                <div class="channel-picture">
+                    <a href = "https://www.youtube.com/@freecodecamp">
+                        <img class="profile-picture" src = "thumbnails/author-image3.jpg">
+                    </a>
+                    
+                    <div class = "channel-preview">
+                        <div class = "picture-preview-box" >
+                            <img class = "picture-preview" src = "thumbnails/author-image3.jpg">
+                        </div>
+
+                        <div class = "channel-preview-info">
+                            <p class = "video-author-preview">freeCodeCamp.org</p>
+                            <p class = "subscribers">7.16M subscribers</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class = "video-info">
+                    <a class = "video-link" href = "https://www.youtube.com/watch?v=PkZNo7MFNFg&t=9156s">
+                        <p class = "video-title">Learn JavaScript - Full Course for Beginners</p>
+                    </a>
+                    <p class ="video-author">freeCodeCamp.org</p>
+                    <p class = "video-stats">14M Views &#183; 4 years ago </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class = "thumbnail-row">
+                <a class = "video-link" href = "https://www.youtube.com/watch?v=sl3lPIV5f8U"> 
+                    <img class = "thumbnail" src = "thumbnails/hq724.webp">
+                </a>
+                <div class = "video-time">10:03</div>
+            </div>     
+            <div class = "video-info-grid">
+                <div class = "channel-picture">
+                    <img class = "profile-picture" src = "thumbnails/author-image4.jpg">
+
+                    <div class = "channel-preview">
+                        <div class = "picture-preview-box" >
+                            <img class = "picture-preview" src = "thumbnails/author-image4.jpg">
+                        </div>
+
+                        <div class = "channel-preview-info">
+                            <p class = "video-author-preview">Golden Hoops</p>
+                            <p class = "subscribers">1.58M subscribers</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class = "video-info">
+                    <a class = "video-link" href = "https://www.youtube.com/watch?v=sl3lPIV5f8U">
+                        <p class = "video-title">NBA "He's Him" MOMENTS</p>
+                    </a>
+                    <p class ="video-author">Golden Hoops</p>
+                    <p class = "video-stats">67K Views &#183; 7 hours ago </p>
+                </div>
+            
+            </div>      
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a class = "video-link" href = "https://www.youtube.com/watch?v=8wKonH2Z3fc">
+                    <img class = "thumbnail" src = "thumbnails/hq725.webp">
+                </a>
+                <div class = "video-time">3:54</div>
+            </div>
+
+            <div class = "video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src = "thumbnails/author-image5.jpg">
+
+                    <div class = "channel-preview">
+                        <div class = "picture-preview-box" >
+                            <img class = "picture-preview" src = "thumbnails/author-image5.jpg">
+                        </div>
+
+                        <div class = "channel-preview-info">
+                            <p class = "video-author-preview">Heat Check</p>
+                            <p class = "subscribers">606K subscribers</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class = "video-info">
+                    <a class = "video-link" href = "https://www.youtube.com/watch?v=8wKonH2Z3fc">
+                        <p class = "video-title">Lebron James Uses The SNEAKIEST TRICK To Win The Game</p>
+                    </a>
+                    <p class ="video-author">Heat Check</p>
+                    <p class = "video-stats">13K Views &#183; 3 hours ago </p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a class = "video-link" href = "https://www.youtube.com/watch?v=phWxA89Dy94">
+                    <img class = "thumbnail" src = "thumbnails/hq727.webp">
+                </a>
+                <div class = "video-time">8:15</div>
+            </div>
+
+            <div class = "video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src = "thumbnails/author-image6.jpg">
+
+                    <div class = "channel-preview">
+                        <div class = "picture-preview-box" >
+                            <img class = "picture-preview" src = "thumbnails/author-image6.jpg">
+                        </div>
+
+                        <div class = "channel-preview-info">
+                            <p class = "video-author-preview">Slaying The Dragon</p>
+                            <p class = "subscribers">14.5K subscribers</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class = "video-info">
+                    <a class = "video-link" href = "https://www.youtube.com/watch?v=phWxA89Dy94">
+                        <p class = "video-title">Learn Flexbox CSS in 8 minutes</p>
+                    </a>
+                    <p class ="video-author">Slaying The Dragon</p>
+                    <p class = "video-stats">215K Views &#183; 2 months ago </p>
+                </div>
+
+            </div>
+        </div>
+
+        
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a class = "video-link" href = "https://www.youtube.com/watch?v=Dxt6Qb_XN6k">
+                    <img class = "thumbnail" src = "thumbnails/hq726.webp">
+                </a>
+                <div class = "video-time">4:15</div>
+            </div>
+
+            <div class = "video-info-grid">
+                <div class="channel-picture">
+                    <a href = "https://www.youtube.com/@Felu">
+                        <img class="profile-picture" src = "thumbnails/author-image2.jpg">
+                    </a>
+
+                    <div class = "channel-preview">
+                        <div class = "picture-preview-box" >
+                            <img class = "picture-preview" src = "thumbnails/author-image2.jpg">
+                        </div>
+
+                        <div class = "channel-preview-info">
+                            <p class ="video-author-preview">Felu-Fit by cooking</p>
+                            <p class = "subscribers">272K subscribers</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class = "video-info">
+                    <a class = "video-link" href = "https://www.youtube.com/watch?v=Dxt6Qb_XN6k">
+                        <p class = "video-title">Healthy (and spicy) Mac and Cheese</p>
+                    </a>
+                    <p class ="video-author">Felu-Fit by cooking</p>
+                    <p class = "video-stats">48K Views &#183; 7 months ago </p>
+                </div>
+
+            </div>
+        </div>
+
+        
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a class = "video-link" href = "https://www.youtube.com/watch?v=Ntmc7WeUL9o">
+                    <img class = "thumbnail" src = "thumbnails/hq728.webp">
+                </a>
+                <div class = "video-time">14:22</div>
+            </div>
+
+            <div class = "video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src = "thumbnails/author-image7.jpg">
+
+                    <div class = "channel-preview">
+                        <div class = "picture-preview-box" >
+                            <img class = "picture-preview" src = "thumbnails/author-image7.jpg">
+                        </div>
+
+                        <div class = "channel-preview-info">
+                            <p class = "video-author-preview">Comicstorian</p>
+                            <p class = "subscribers">2.85M subscribers</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class = "video-info">
+                    <a class = "video-link" href = "https://www.youtube.com/watch?v=Ntmc7WeUL9o">
+                        <p class = "video-title">Robin War - Complete Story | Comicstorian</p>
+                    </a>
+                    <p class ="video-author">Comicstorian</p>
+                    <p class = "video-stats">933K Views &#183; 7 years ago </p>
+                </div>
+
+            </div>
+        </div>
+
+        
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a class = "video-link" href = "https://www.youtube.com/watch?v=a_iQb1lnAEQ">
+                    <img class = "thumbnail" src = "thumbnails/hq729.webp">
+                </a>
+                <div class = "video-time">5:21:43</div>
+            </div>
+
+            <div class = "video-info-grid">
+                <div class="channel-picture">
+                    <a href = "https://www.youtube.com/@freecodecamp">
+                        <img class="profile-picture" src = "thumbnails/author-image3.jpg">
+                    </a>
+
+                    <div class = "channel-preview">
+                        <div class = "picture-preview-box" >
+                            <img class = "picture-preview" src = "thumbnails/author-image3.jpg">
+                        </div>
+
+                        <div class = "channel-preview-info">
+                            <p class = "video-author-preview">freeCodeCamp.org</p>
+                            <p class = "subscribers">7.16M subscribers</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class = "video-info">
+                    <a class = "video-link" href = "https://www.youtube.com/watch?v=a_iQb1lnAEQ">
+                        <p class = "video-title">Learn HTML &#8211; Full Tutorial for Beginners (2022)</p>
+                    </a>
+                    <p class ="video-author">freeCodeCamp.org</p>
+                    <p class = "video-stats">226K Views &#183; 4 months ago </p>
+                </div>
+
+            </div>
+        </div>
+
+
+        
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a class = "video-link" href = "https://www.youtube.com/watch?v=d56mG7DezGs">
+                    <img class = "thumbnail" src = "thumbnails/hq730.webp">
+                </a>
+                <div class = "video-time">1:04:27</div>
+            </div>
+
+            <div class = "video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src = "thumbnails/author-image8.jpg">
+
+                    <div class = "channel-preview">
+                        <div class = "picture-preview-box" >
+                            <img class = "picture-preview" src = "thumbnails/author-image8.jpg">
+                        </div>
+
+                        <div class = "channel-preview-info">
+                            <p class = "video-author-preview">Programming with Mosh</p>
+                            <p class = "subscribers">3.09K subscribers</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class = "video-info">
+                    <a class = "video-link" href = "https://www.youtube.com/watch?v=d56mG7DezGs">
+                        <p class = "video-title">TypeScript Tutorial for Beginners</p>
+                    </a>
+                    <p class ="video-author">Programming with Mosh</p>
+                    <p class = "video-stats">448K Views &#183; 8 months ago </p>
+                </div>
+
+            </div>
+        </div>
+
+
+        
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a class = "video-link" href = "https://www.youtube.com/watch?v=qMGps9Zbx6Q">
+                    <img class = "thumbnail" src = "thumbnails/hq731.webp">
+                </a>
+                <div class = "video-time">5:03</div>
+            </div>
+
+            <div class = "video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src = "thumbnails/author-image5.jpg">
+
+                    <div class = "channel-preview">
+                        <div class = "picture-preview-box" >
+                            <img class = "picture-preview" src = "thumbnails/author-image5.jpg">
+                        </div>
+
+                        <div class = "channel-preview-info">
+                            <p class = "video-author-preview">Heat Check</p>
+                            <p class = "subscribers">606K subscribers</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class = "video-info">
+                    <a class = "video-link" href = "https://www.youtube.com/watch?v=qMGps9Zbx6Q">
+                        <p class = "video-title">This Is Why You NEVER GIVE UP...</p>
+                    </a>
+                    <p class ="video-author">Heat Check</p>
+                    <p class = "video-stats">61K Views &#183; 4 weeks ago </p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
